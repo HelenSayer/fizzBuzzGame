@@ -1,39 +1,26 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# **FixxBuzz Game**
 
-Welcome USER_NAME,
+## **Challenge**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Your challenge is to write some tests for the FizzBuzz game.
 
-## Gitpod Reminders
+FizzBuzz is a classic programming problem that is often asked as an interview question. Create a function called fizzBuzz. This function should take in number as a parameter. The function should do the following:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+If the number is divisible by 3 and 5, then return "FizzBuzz"
+If the number is divisible by 3, then return "Fizz"
+If the number is divisible by 5, then return "Buzz"
+Else just return the number
 
-`python3 -m http.server`
+Write a set of tests that pass in various values to the FizzBuzz function and ensure that the function meets the above requirements. Make sure that you test all different "types" of inputs that the function may receive.
 
-A blue button should appear to click: *Make Public*,
+### **Project**
 
-Another blue button should appear to click: *Open Browser*.
+I have tried to work through the challenge following the example given in the CI training videos.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+For each step I have saved the Jasmine files: fizzBuzzSpecStep01.js, fizzBuzzSpecStep02, etc.
 
-A blue button should appear to click: *Make Public*,
+And for each step I have saved the corresponding JavaScript files in the same way:
+fizzBuzzStep01.js, fizzBuzzStep02.js etc.
 
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+- step01 and step02 refers to Red-Green-Refactor.
+- step03 and step08 refer to Test suites.
